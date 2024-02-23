@@ -18,7 +18,7 @@ export default function DashboardLayout({ children }: DashboardLayoutProps) {
                 <div className="hidden lg:flex h-full">
                     <OrgSidebar />
                 </div>
-                <div className="flex-1">
+                <div className="flex-1 ">
                     <Navbar />
                     {children}
                 </div>
