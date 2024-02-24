@@ -13,7 +13,7 @@ export const Canvas = ({
     return (
         <main className="relative h-full w-full bg-neutral-100 touch-none">
 
-            <Info />
+            <Info boardId={boardId} />
             <Participants />
             <Toolbar />
         </main>

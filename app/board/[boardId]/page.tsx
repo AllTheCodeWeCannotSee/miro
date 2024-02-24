@@ -10,9 +10,7 @@ interface BoardIdPageProps {
 }
 const BoardIdPage = ({ params }: BoardIdPageProps) => {
 
-    return (
-        <Loading />
-    )
+
     return (
         <Room
             roomId={params.boardId}
